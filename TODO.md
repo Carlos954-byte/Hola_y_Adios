@@ -1,0 +1,5 @@
+- [x] Formatear el código (indentación, espaciado)
+- [x] Renombrar clases a nombres más descriptivos (Hola a HomePage)
+- [x] Extraer constantes para textos y URLs
+- [x] Modularizar el widget (extraer partes en métodos)
+- [x] Agregar comentarios
