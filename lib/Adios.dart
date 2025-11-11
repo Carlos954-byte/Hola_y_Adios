@@ -9,20 +9,33 @@ class Adios extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Adios'),
       ),
-      body: Center(
-        child: ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.red,
-            shape: const StadiumBorder(),
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [
+              Color(0xFF228B22), // Dark green
+              Color(0xFFB22222), // Dark red
+            ],
           ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: const Text(
-            'Adios!',
-            style: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
+        ),
+        child: Center(
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.red,
+              elevation: 8,
+              shape: const StadiumBorder(),
+            ),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            child: const Text(
+              'Adios!',
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),

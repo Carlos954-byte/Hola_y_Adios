@@ -1,5 +1,8 @@
-- [x] Formatear el código (indentación, espaciado)
-- [x] Renombrar clases a nombres más descriptivos (Hola a HomePage)
-- [x] Extraer constantes para textos y URLs
-- [x] Modularizar el widget (extraer partes en métodos)
-- [x] Agregar comentarios
+# TODO: Actualizar main.dart con nuevos requisitos
+
+- [x] Update name and last name validators: min 6, max 20 characters
+- [x] Add "otro" option to gender enum and radio buttons
+- [x] Update email validator to check for @
+- [x] Update password and confirm password validators: >=10 and <=20 characters, must match
+- [x] Improve frontend design to beach style (colors, gradients, etc.)
+- [x] Test the app after updates
